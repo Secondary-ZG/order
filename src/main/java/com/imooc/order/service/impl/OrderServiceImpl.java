@@ -10,6 +10,7 @@ import com.imooc.order.service.OrderService;
 import com.imooc.order.utils.KeyUtil;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 
@@ -18,6 +19,7 @@ import java.math.BigDecimal;
  * Created By Secondary
  * On 2019/8/21 21:21
  */
+@Service
 public class OrderServiceImpl implements OrderService {
 
     @Autowired
