@@ -1,0 +1,6 @@
+应用间的通讯
+客户端负载均衡器：Ribbon
+
+>RestTemplate
+>Feign
+>Zuul
