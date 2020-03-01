@@ -1,6 +1,5 @@
 package com.imooc.order.service.impl;
 
-import com.imooc.order.client.ProductClient;
 import com.imooc.order.dataobject.OrderDetail;
 import com.imooc.order.dataobject.OrderMaster;
 import com.imooc.order.dataobject.ProductInfo;
@@ -15,7 +14,7 @@ import com.imooc.order.utils.KeyUtil;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
+import com.imooc.product.client.ProductClient;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.List;

@@ -27,7 +27,7 @@
         <java.version>1.8</java.version>
         <spring-cloud.version>Finchley.M2</spring-cloud.version>
         <product-client.version>0.0.1-SNAPSHOT</product-client.version>
-        <product-common.version>0.0.1-SNAPSHOT</product-common.version>
+        <order-common.version>0.0.1-SNAPSHOT</order-common.version>
     </properties>
 
     <dependencyManagement>
@@ -48,8 +48,8 @@
 
             <dependency>
                 <groupId>com.imooc</groupId>
-                <artifactId>product-common</artifactId>
-                <version>${product-common.version}</version>
+                <artifactId>order-common</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
